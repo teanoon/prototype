@@ -27,7 +27,7 @@ gem "therubyracer"
 # webkits
 gem 'mechanize'
 gem 'capybara'
-gem 'capybara-webkit'
+# gem 'capybara-webkit'
 gem 'capybara-mechanize'
 gem 'selenium-webdriver'
 gem 'poltergeist'

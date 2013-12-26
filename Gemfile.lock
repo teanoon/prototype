@@ -53,9 +53,6 @@ GEM
     capybara-mechanize (1.1.0)
       capybara (~> 2.1.0)
       mechanize (~> 2.7)
-    capybara-webkit (1.1.1)
-      capybara (>= 2.0.2, < 2.2.0)
-      json
     celluloid (0.15.2)
       timers (~> 1.1.0)
     childprocess (0.3.9)
@@ -347,7 +344,6 @@ DEPENDENCIES
   capistrano3-puma
   capybara
   capybara-mechanize
-  capybara-webkit
   coffee-rails (~> 4.0.0)
   compass-rails
   cucumber-rails
