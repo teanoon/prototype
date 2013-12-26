@@ -1,5 +1,5 @@
-# source 'https://rubygems.org'
-source 'http://ruby.taobao.org'
+source 'https://rubygems.org'
+# source 'http://ruby.taobao.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
@@ -11,9 +11,8 @@ gem 'jbuilder', '~> 1.2'
 gem 'actionpack-xml_parser'
 
 # css
-gem 'sass-rails', '~> 4.0.0'
-gem 'compass'
-gem "compass-rails", "~> 2.0.alpha.0"
+gem 'sass-rails'
+gem "compass-rails"
 gem 'susy'
 gem 'font-awesome-rails'
 
