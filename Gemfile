@@ -3,7 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
-gem 'mysql2'
+# gem 'mysql2'
+gem 'pg'
 
 # responders
 gem "haml-rails"
@@ -51,6 +52,7 @@ gem 'acts-as-taggable-on'
 # gem 'slim'                          # some bugs need it
 
 group :production do
+  gem 'rails_12factor'
   gem 'puma'
 end
 
